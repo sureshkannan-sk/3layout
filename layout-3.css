@@ -1,0 +1,114 @@
+.wrapper
+{
+	width:80%;
+	margin:auto;
+}
+.header
+{
+	background-color:grey;
+}
+.header .header-fc
+{
+	display:flex;
+	justify-content:space-between;
+}
+.header .header-fc .start
+{
+	width:160px;
+	height:55px;
+	background-color:lightblue;
+}
+.header .header-fc .detail
+{
+	width:160px;
+	height:55px;
+	background-color:lightblue;
+}
+.blog
+{
+	height:400px;
+	background-color:lightgreygrey;
+}
+.body
+{
+	background-color:black;
+	height:1100px;
+
+}
+.body .wrapper 
+{
+	width:55%;
+	margin:auto;
+}
+.next .wrapper
+{
+	width:55%;
+	margin:auto;
+}
+.body .body-fc
+{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+}
+.body .body-fc .con-a
+{
+	display:flex;
+	width:730px;
+	height:250px;
+	background-color:lightblue;
+}
+.body .body-fc .con-b
+{
+	display:flex;
+	width:730px;
+	height:250px;
+	background-color:white;
+}
+.body .body-fc .con-c
+{
+	display:flex;
+	width:730px;
+	height:250px;
+	background-color:lightblue;
+}
+.body .body-fc .con-d
+{
+	display:flex;
+	width:730px;
+	height:250px;
+	background-color:white;
+}
+.next
+{
+	background-color:lightgrey;
+}
+.next .next-fc
+{
+	display:flex;
+	justify-content:flex-end;
+	
+}
+.next .next-fc .older
+{
+	width:170px;
+	height:55px;
+	background-color:teal;
+}
+.website
+{
+background-color: black;
+height:120px;
+}
+.website .website-fc
+{
+	display:flex;
+	justify-content:center;
+}
+.website .website-fc .box-e
+{
+	width:300px;
+	height:90px;
+	background-color:white;
+	margin-top:15px;
+}
